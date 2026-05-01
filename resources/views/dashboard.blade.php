@@ -9,7 +9,7 @@
         <div class="bg-gradient-to-br from-red-500 to-red-600 rounded-xl shadow-lg p-6 text-white">
             <div class="flex justify-between items-start">
                 <div>
-                    <p class="text-red-100 text-sm font-medium">Total User</p>
+                    <p class="text-red-100 text-sm font-medium">Total Users</p>
                     <p class="text-3xl font-bold mt-2">{{ $stats['total_users'] ?? '0' }}</p>
                 </div>
                 <div class="bg-white/20 p-3 rounded-lg">
