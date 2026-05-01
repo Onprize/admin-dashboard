@@ -66,7 +66,7 @@
 
     <!-- Recent Orders Section -->
     @if (!empty($recentOrders))
-        <div class="bg-white rounded-xl shadow-lg border border-gray-100">
+        <div class="bg-black rounded-xl shadow-lg border border-gray-100">
             <div class="p-6 border-b border-gray-100 flex justify-between items-center">
                 <div>
                     <h3 class="text-lg font-semibold text-gray-900">Recent Orders</h3>
