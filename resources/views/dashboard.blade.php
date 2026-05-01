@@ -4,7 +4,7 @@
 @section('page-title', 'Dashboard')
 
 @section('content')
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <div class="bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         <!-- Stats Cards -->
         <div class="bg-gradient-to-br from-red-500 to-red-600 rounded-xl shadow-lg p-6 text-white">
             <div class="flex justify-between items-start">
@@ -66,7 +66,7 @@
 
     <!-- Recent Orders Section -->
     @if (!empty($recentOrders))
-        <div class="bg-black rounded-xl shadow-lg border border-gray-100">
+        <div class="bg-white rounded-xl shadow-lg border border-gray-100">
             <div class="p-6 border-b border-gray-100 flex justify-between items-center">
                 <div>
                     <h3 class="text-lg font-semibold text-gray-900">Recent Orders</h3>
